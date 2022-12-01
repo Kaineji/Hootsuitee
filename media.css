@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 100%; 
+    height: 100vh;
+    background-color: green;
+}
+
+nav {
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    height: 5rem;
+}
+
+.navar {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    margin-left: 25rem;
+    align-items: center;
+}
+
+.log {
+    padding: 0.5625rem 1.5625rem;
+    background-color: white;
+    color: #28863e;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.125rem;
+}
+
+.log:hover {
+    padding: 0.5625rem 1.5625rem;
+    background-color: #28863e;
+    color: white;
+    transition: 0.4s;
+}
+
+.sign {
+    padding: 0.5625rem 1.5625rem;
+    background-color: #28863e;
+    margin-left: 1.25rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 10;
+    font-size: 1.125rem;
+}
+
+.logo {
+    line-height: 5rem;
+    font-size: 1.90rem;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    margin-left: 5.9375rem;
+    text-decoration: none;
+    color: #fe4f49;
+}
+
+main {
+    width: 100vw;
+    background-color: #143058;
+    height: 85vh;
+    flex-direction: column;
+}
+
+img {
+    background-color: #bccbee;
+    height: 85vh;
+    margin-left: 5.9375rem;
+}
+
+.container2 {
+    display: flex;
+    gap: 10.25rem; 
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.15625rem;
+    font-weight: 100;
+    font-size: 3.125rem;
+}
+
+p1 {
+    display: grid;
+    margin-top: 1.25rem;
+    color: wheat;
+    font-size: 1.25rem;
+}
+
+.h4 {
+    background-color: #28863e;
+    width: 15.625rem;
+    text-align: center;
+    padding: 0.625rem;
+    color: white;
+    font-size: 0.875rem;
+    display: grid;
+    margin-top: 2.5rem;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 20;
+    letter-spacing: 0.0125rem;
+    text-decoration: none;
+}
+
+.compare {
+    color: white;
+    display: grid;
+    margin-top: 1.25rem;
+    letter-spacing: 0.075rem;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    margin-right: 1.875rem;
+    font-weight: bold;
+    font-size: 1.0625rem;
+    font-family: 'Secular One', sans-serif;
+    padding: 0.625rem;
+}
+
+.lii {
+    margin-left: 5.625rem;
+}
+
+li:hover {
+    background-color: #097f40;
+    padding: 0.5rem;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 1rem;
+    border-bottom-left-radius: 0.3125rem;
+    color: white;
+}
